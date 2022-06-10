@@ -1,8 +1,11 @@
-import React from 'react'
-import "./Projects.css";
+import './WorkCard.css';
+import React from 'react';
+import project1 from "../../Images/project1.png";
+import project2 from "../../Images/project2.png";
+import project3 from "../../Images/project3.png";
 import { NavLink } from 'react-router-dom';
 
-const Project = (props) => {
+const WorkCard = (props) => {
     return (
         <div className='project-card'>
             <img src={props.img} alt="" />
@@ -13,7 +16,7 @@ const Project = (props) => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Project
+export default WorkCard;

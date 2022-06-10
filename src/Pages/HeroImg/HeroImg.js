@@ -12,7 +12,6 @@ const HeroImg = () => {
             <div className="content">
                 <p>Hi, I'm Brishti</p>
                 <h1>Front-End Developer</h1>
-                <Link to="/projects" className="btn">Projects</Link>
                 <a className='btn btn-light' href="https://drive.google.com/file/d/1BocoUSypGgDfVDL_WL6BczMefAsn3rnK/view?usp=sharing">Resume</a>
                 <Link to="/contact" className="btn btn-light">Contact</Link>
             </div>

@@ -28,11 +28,9 @@ const Navbar = () => {
                     <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/project">Project</Link>
+                    <Link to="/blog">Blog</Link>
                 </li>
-                <li>
-                    <Link to="/resume">Resume</Link>
-                </li>
+                <li><a href="https://drive.google.com/file/d/1BocoUSypGgDfVDL_WL6BczMefAsn3rnK/view?usp=sharing">Resume</a></li>
                 <li>
                     <Link to="/contact">Contact</Link>
                 </li>
